@@ -8,12 +8,8 @@
 
 我的电脑是4080s、CUDA13.0、python3.12.10所以不保证这个文件适用所有的接近的环境。
 
-G:\ComfyUI_windows_portable>.\python_embeded\python.exe -c "import llama_cpp; print(llama_cpp.llama_print_system_info())"
-ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
-ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
-ggml_cuda_init: found 1 CUDA devices:
-  Device 0: NVIDIA GeForce RTX 4080 SUPER, compute capability 8.9, VMM: yes
-b'CUDA : ARCHS = 890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | '
+
+
 
 其核心参数是 ARCHS = 890，未设置复杂的CMAKE_ARGS，可兼容NVIDIA 40系列显卡。
 30系列显卡无法使用。
