@@ -1,4 +1,4 @@
-<h1 align="center"><strong>🚀 Release: llama-cpp-python v0.3.16 (Win-CUDA 13.0 Optimized)</strong></h1>
+# llama-cpp-python v0.3.16 (Optimized for CUDA 13.0)
 
 
 这是针对 NVIDIA RTX 4080 Super 及 CUDA 13.0 环境本地编译生成的 llama-cpp-python 预编译包。
