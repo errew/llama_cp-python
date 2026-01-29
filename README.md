@@ -6,7 +6,7 @@
 现在又遇到一个关于Qwen-3的量化模型的插件，又是类似的加载问题。
 找不到适配的llama-cpp文件的版本，不得以自己编译一个。
 
-我的电脑是4080s、CUDA13.0, 所以不保证这个文件适用所有的接近的环境。
+我的电脑是4080s、CUDA13.0、python3.12.10所以不保证这个文件适用所有的接近的环境。
 
 G:\ComfyUI_windows_portable>.\python_embeded\python.exe -c "import llama_cpp; print(llama_cpp.llama_print_system_info())"
 ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
