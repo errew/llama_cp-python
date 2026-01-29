@@ -33,7 +33,7 @@ CUDA Toolkit: 13.0
 
 :: 替换为你的实际路径
 
-    .\python_embeded\python.exe -m pip install "llama_cpp_python-0.3.16-cp312-cp312-win_amd64.whl" --force-reinstall
+    .\python_embeded\python.exe -m pip install "llama_cpp_python-0.3.16+cu130avx2-cp312-cp312-win_amd64.whl" --force-reinstall
 
 🖼️ 运行验证 (Verification)
 
