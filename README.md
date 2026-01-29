@@ -19,4 +19,4 @@ b'CUDA : ARCHS = 890 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : SSE3 =
 纯当娱乐。
 
 
-安装方法：你都找到这里了，就不用说这些基础的，自己搞定。
+
