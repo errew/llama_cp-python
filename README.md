@@ -25,6 +25,8 @@ Python: 3.12.x (基于 Python 3.12.10 编译)
 CUDA Toolkit: 13.0
 
 ![验证信息截图](image/1.png)
+* 文件件名采用社区通用的规范进行了修改更为直观：llama_cpp_python-0.3.16+cu130avx2-cp312-cp312-win_amd64.whl
+  
 🛠️ 安装方法 (Installation)
 下载附件中的 .whl 文件。
 在你的 Python 环境（或 ComfyUI 便携版环境）中运行：
