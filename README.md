@@ -32,3 +32,9 @@ CUDA Toolkit: 13.0
 :: 替换为你的实际路径
 
     .\python_embeded\python.exe -m pip install "llama_cpp_python-0.3.16-cp312-cp312-win_amd64.whl" --force-reinstall
+
+🖼️ 运行验证 (Verification)
+
+安装后建议运行以下命令确认 CUDA = 1:
+       
+    .\python_embeded\python.exe -c "import llama_cpp; print(llama_cpp.llama_print_system_info())"
